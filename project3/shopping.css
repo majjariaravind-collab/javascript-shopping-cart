@@ -1,0 +1,139 @@
+```css
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 40px 20px;
+  background: #f8f9fa;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: #6f42c1;
+  margin-bottom: 30px;
+}
+
+.homePage {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.product1,
+.product2,
+.product3 {
+  width: 280px;
+  padding: 25px;
+  background: white;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.product1 h3,
+.product2 h3,
+.product3 h3 {
+  color: #6f42c1;
+  margin: 10px 0;
+}
+
+.product1 p,
+.product2 p,
+.product3 p {
+  color: #555;
+  margin: 15px 0;
+}
+
+.addCart {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  background: #6f42c1;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.addCart:hover {
+  background: #59339d;
+}
+
+hr {
+  max-width: 1000px;
+  margin: 50px auto 35px;
+  border: none;
+  border-top: 1px solid #ddd;
+}
+
+.cartItems {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.cartItems > div {
+  width: 280px;
+  padding: 25px;
+  background: white;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.cartItems h3 {
+  color: #6f42c1;
+  margin: 10px 0;
+}
+
+.cartItems p {
+  color: #555;
+  margin: 10px 0;
+}
+
+.deleteButton,
+.increaseButton,
+.decreaseButton {
+  border: none;
+  padding: 9px 14px;
+  margin: 5px 3px 0 0;
+  border-radius: 7px;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.deleteButton {
+  background: #dc3545;
+}
+
+.deleteButton:hover {
+  background: #bb2d3b;
+}
+
+.increaseButton {
+  background: #198754;
+}
+
+.increaseButton:hover {
+  background: #157347;
+}
+
+.decreaseButton {
+  background: #f39c12;
+}
+
+.decreaseButton:hover {
+  background: #d68910;
+}
+```
